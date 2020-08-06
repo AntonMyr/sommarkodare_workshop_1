@@ -1,0 +1,35 @@
+JSON = Javascript Object Notation
+
+JSON 101:
+
+{
+    "key": "value",
+    "key": "value",
+    "objekt": {
+        "key": "value"
+    },
+    "array": [1, 2, 3],
+    "nummer": 1
+}
+
+
+Key är alltid en string
+
+Value kan vara något av följande:
+
+* string
+* nummer
+* nytt json Object
+* boolean
+* array
+* null
+
+
+Om vi har ett json objekt som heter "ob" och innehåller:
+{
+    "1": "ett",
+    "2": "två",
+}
+
+ob.2 => "två"
+ob.1 => "ett"
